@@ -141,12 +141,27 @@
     #menu {
         margin-top: -50px;
     }
+    .menu__dropdown {
+        height: 493px;
+        left: 207px;
+        top: 1px;
+    }
+    .menu__item1 .fa-chevron-down {
+        margin-left: 11px;
+    }
 }
 @media (min-width:1200px) and (max-width:1399px) {
     #hamburger-menu{
         display: none;
     }
-   
+    .menu__dropdown {
+        height: 492px;
+        left: 247px;
+        top: 1px;
+    }
+    .menu__item1 .fa-chevron-down {
+        margin-left: 48px;
+    }
 }
 @media (min-width:1400px){
     #hamburger-menu{
@@ -154,5 +169,13 @@
     }
     .nav__searchbox input {
         width: 592px;
+    }
+    .menu__item1 .fa-chevron-down {
+        margin-left: 88px;
+    }
+    .menu__dropdown {
+        top: 1px;
+        left: 287px;
+        height: 493px;
     }
 }
